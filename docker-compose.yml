@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    build: .
+    tty: true
+    ports:
+      - "8000:8000"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /public_html/data
+    entrypoint: "./scripts/entrypoint.sh"

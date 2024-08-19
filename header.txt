@@ -1,0 +1,4 @@
+<!-- Custom code to be included after <body> tag -->
+<!-- Custom code to be included after <body> tag -->
+<a href="/install/install.php">Install</a>
+<a href="/dash.php">Demo Dashboard</a>
